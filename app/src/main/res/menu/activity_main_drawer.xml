@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:title="Dashboard"
+            android:visible="true"
+            android:enabled="true"
+            android:checkable="false" />
+    </group>
+        <item
+            android:id="@+id/admin"
+            android:title="Administrator" />
+        <item
+            android:id="@+id/report"
+            android:title="Report" />
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/jobsite"
+            android:title="Job Site" />
+    </group>
+
+</menu>
